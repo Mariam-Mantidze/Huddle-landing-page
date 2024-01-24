@@ -191,7 +191,7 @@ main p {
   width: 100vw;
 }
 .top-detail {
-  margin-bottom: -3px;
+  margin-bottom: -5px;
 }
 
 #grow .main-img {
@@ -285,6 +285,9 @@ input {
   font-weight: 700;
   line-height: 24px; /* 150% */
 }
+#subscribe:hover {
+  background: #ff8ed7;
+}
 
 footer {
   margin-top: 25.1rem;
@@ -337,4 +340,167 @@ footer {
   margin-top: 4.8rem;
   display: flex;
   gap: 1.7rem;
+}
+.icon {
+  fill: white;
+  cursor: pointer;
+}
+.icon:hover {
+  fill: #00c7fa;
+}
+
+@media (min-width: 1440px) {
+  header {
+    padding: 7.9rem 6.3rem 0 8rem;
+  }
+  #header-logo {
+    width: 24rem;
+    height: 3.8rem;
+  }
+  #header-btn {
+    padding: 0.9rem 3rem;
+    border-radius: 2rem;
+    border: 0.588px solid #ff52c1;
+    box-shadow: 0px 0px 9px 0px rgba(255, 82, 193, 0.22);
+    font-size: 1.6rem;
+  }
+  #community-section {
+    margin-top: 22.6rem;
+  }
+  .main-h2 {
+    font-size: 4.8rem;
+    width: auto;
+    line-height: 7.2rem;
+  }
+  #community-section p {
+    font-size: 2rem;
+    width: 60rem;
+    margin-top: 2.6rem;
+    line-height: 3rem;
+  }
+  .start-btn {
+    padding: 2.5rem 10rem;
+    filter: drop-shadow(0px 6px 13px rgba(0, 37, 46, 0.22));
+    border-radius: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  #screen-img {
+    width: 106.6rem;
+  }
+  #diagram {
+    flex-direction: row;
+    gap: 34.1rem;
+  }
+  #diagram h3 {
+    font-size: 9.6rem;
+    line-height: 14.4rem;
+  }
+  #diagram span {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+  #community-img {
+    width: 56px;
+    top: -3.5rem;
+  }
+  #msg-img {
+    width: 4.9rem;
+    top: -3.5rem;
+  }
+  .mobile-detail {
+    display: none;
+  }
+  .desktop-detail {
+    display: block;
+  }
+  #grow {
+    margin-top: 13.3rem;
+  }
+  .curve-box {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem 15.1rem 5rem 13rem;
+  }
+  #grow .main-img {
+    width: 51.7rem;
+  }
+  .img-paragraph-flex-grp {
+    align-items: flex-start;
+    order: -1;
+  }
+  .img-paragraph-flex-grp p {
+    text-align: start;
+    width: 52rem;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+  }
+  img.paragraph-flex-grp h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  #flowing-section {
+    margin-top: 19.4rem;
+    flex-direction: row;
+    padding: 0 12rem 0 13.5rem;
+    gap: 13.4rem;
+    justify-content: center;
+  }
+  #flowing-section img {
+    order: -1;
+    width: 53.1rem;
+  }
+  .img-paragraph-pairs h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .img-paragraph-pairs p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  #users-section {
+    margin-top: 11.1rem;
+  }
+  #users-img {
+    width: 53.4rem;
+  }
+  #cta {
+    gap: 4.2rem;
+  }
+  #cta h2 {
+    font-size: 4rem;
+  }
+  .footer {
+    margin-top: 17.8rem;
+  }
+  .footer-curve-box {
+    width: 100vw;
+    padding: 12rem 12rem 10.3rem;
+  }
+
+  .newsletter-flex-grp {
+    flex-direction: row;
+  }
+  .footer-main-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #huddle {
+    order: -1;
+  }
+  footer h4 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+  #huddle {
+    margin-top: 0;
+  }
+  #icons {
+    gap: 2.4rem;
+  }
+  .icon {
+    width: 3.2rem;
+  }
 }
