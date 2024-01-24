@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+button,
+h3,
+span {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.8rem 2.4rem;
+  width: 100vw;
+  align-items: center;
+}
+
+main p {
+  color: #00252e;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem; /* 150% */
+  width: 32rem;
+  margin-top: 1.6rem;
+}
+
+#header-logo {
+  width: 9.6rem;
+  height: 1.6rem;
+}
+#header-btn {
+  border-radius: 1.1rem;
+  border: 0.588px solid #ff52c1;
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
+  padding: 0.5rem 1.7rem;
+
+  /* text */
+  color: #ff52c1;
+  font-size: 0.9rempx;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#community-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  margin-top: 11.6rem;
+}
+
+#community-section h2 {
+  width: 28rem;
+  color: #00252e;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.6rem; /* 150% */
+}
+
+#community-section p {
+  width: 29.6rem;
+  margin-top: 2.4rem;
+}
+
+.start-btn {
+  background-color: #ff52c1;
+  box-shadow: 0px 3px 7px rgba(0, 37, 46, 0.22);
+  border: none;
+  margin-top: 4.8rem;
+  border-radius: 2rem;
+  padding: 1.1rem 3.9rem;
+
+  /* text */
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.8rem; /* 150% */
+}
+
+#screen-img {
+  width: 29.6rem;
+  margin-top: 15.5rem;
+}
