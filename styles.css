@@ -191,7 +191,7 @@ main p {
   width: 100vw;
 }
 .top-detail {
-  margin-bottom: -2px;
+  margin-bottom: -3px;
 }
 
 #grow .main-img {
@@ -267,6 +267,7 @@ input {
   border-radius: 6px;
   background: #fff;
   border: none;
+  align-self: flex-end;
 }
 #subscribe {
   align-self: flex-end;
