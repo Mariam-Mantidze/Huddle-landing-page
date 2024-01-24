@@ -119,10 +119,15 @@ main p {
 
 .diagram-flex-grp h3 {
   color: #00252e;
-  font-size: 7rem;
   font-style: normal;
   font-weight: 700;
   line-height: 91.429px; /* 150% */
+}
+#first {
+  font-size: 6rem;
+}
+#scnd {
+  font-size: 5.3rem;
 }
 
 .diagram-flex-grp span {
@@ -146,4 +151,34 @@ main p {
 
 #community-img {
   width: 35.556px;
+}
+
+#grow {
+  align-items: center;
+  margin-top: 21.6rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-paragraph-flex-grp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.curve-box {
+  background-color: #f6fbff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.curve-detail {
+  width: 100vw;
+}
+.top-detail {
+  margin-bottom: -2px;
+}
+
+#grow .main-img {
+  width: 25.8rem;
 }
