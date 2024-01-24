@@ -284,6 +284,10 @@ input {
   font-weight: 700;
   line-height: 24px; /* 150% */
 }
+
+footer {
+  margin-top: 25.1rem;
+}
 .footer-paragraph h4 {
   color: #fff;
   font-size: 2rem;
