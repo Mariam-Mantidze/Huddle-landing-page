@@ -303,3 +303,33 @@ input {
   width: 32rem;
   margin-top: 1.6rem;
 }
+
+#huddle {
+  margin-top: 10.4rem;
+}
+
+.icon-flex-grp {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.icon-container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.icon-flex-grp span {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+#icons {
+  margin-top: 4.8rem;
+  display: flex;
+  gap: 1.7rem;
+}
